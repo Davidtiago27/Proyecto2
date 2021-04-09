@@ -3,3 +3,29 @@
     padding: 0;
     font-family: 'Raleway', sans-serif;
 }
+
+body {
+    color: antiquewhite;
+    background-color: #1B1B1E;
+}
+
+.Menu {
+    
+    color: rgb(234, 219, 248);
+    text-decoration: none;
+    
+}
+
+@media (max-width: 576px) {
+    .Menu {
+    background-color: #96031A;            
+    color:antiquewhite;
+    padding: 10px;
+    }
+    .titulo {
+        text-align: center;
+    }
+
+    
+    }
+    
