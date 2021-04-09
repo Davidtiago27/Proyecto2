@@ -7,25 +7,71 @@
 body {
     color: antiquewhite;
     background-color: #1B1B1E;
+    
 }
+
+
 
 .Menu {
     
+    display: inline-block;
+    width: 90%;
+    justify-content: space-evenly;
+}
+
+.menu1 {
     color: rgb(234, 219, 248);
     text-decoration: none;
-    
-}
+    transition: all 1s;
+  }
+
+  .menu2 {
+    color: rgb(234, 219, 248);
+    text-decoration: none;
+    transition: all 1s;
+  }
+
+  .menu3 {
+    color: rgb(234, 219, 248);
+    text-decoration: none;
+    transition: all 1s;
+  }
+
+  .menu4 {
+    color: rgb(234, 219, 248);
+    text-decoration: none;
+    transition: all 1s;
+  }
+
+  .menu5 {
+    color: rgb(234, 219, 248);
+    text-decoration: none;
+    transition: all 1s;
+  }
+
+  .menu6 {
+    color: rgb(234, 219, 248);
+    text-decoration: none;
+    transition: all 1s;
+  }
 
 @media (max-width: 576px) {
     .Menu {
     background-color: #96031A;            
     color:antiquewhite;
     padding: 10px;
-    }
-    .titulo {
-        text-align: center;
+    text-decoration: none;
+    
+    text-align: center;
     }
 
-    
+    .titulo {
+        text-align: center;
+        
+    }
+
+    .titulo1 {
+        padding: 5%;
+    }
     }
     
