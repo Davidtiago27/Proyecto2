@@ -26,6 +26,10 @@ body {
    
 }
 
+header {
+  background-color: #96031A;
+}
+
 .menu1 {
     color: rgb(234, 219, 248);
     text-decoration: none;
@@ -160,3 +164,20 @@ body {
 
     }
     
+    .footer {
+      padding: 2%;
+      background-color: #3A3A40;
+      
+
+    }
+
+    .redes {
+      position: fixed;
+      bottom: 0;
+      right: 5px;
+      margin: 10px;
+      padding: 10px;
+      border-radius: 20px;
+      transition: all 0.5s;
+      list-style: none;
+      } 
