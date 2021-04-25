@@ -1,0 +1,41 @@
+body {
+    background-color: #1F1F1F;
+    color: rgb(219, 219, 219);
+    font-family: 'Raleway', sans-serif;
+}
+
+.titulo {
+    background-color: rgb(133, 7, 7);   
+
+}
+
+.titulo1 {
+    text-align: center;
+    padding: 2%;
+    font-size: xx-large;
+}
+
+.redes {
+    
+    padding: 2%;
+    display: flex;
+    grid-column-start: 4 - 7;
+    justify-content: space-evenly;
+}
+
+.titulo__articulo {
+    text-align: center;
+    padding: 3%;
+}
+
+.articulo1 {
+    padding: 20% 10% 10% 10%;
+}
+
+.articulo2 {
+    padding: 10% 10% 10% 10%;
+}
+
+.articulo3 {
+    padding: 10% 10% 20% 10%;
+}
