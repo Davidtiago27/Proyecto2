@@ -23,6 +23,7 @@ body {
     justify-content: space-evenly;
 }
 
+
 .titulo__articulo {
     text-align: center;
     padding: 3%;
@@ -39,3 +40,42 @@ body {
 .articulo3 {
     padding: 10% 10% 20% 10%;
 }
+
+footer {
+    padding: 2%;
+    background-color: #292929;
+    font-size: small;
+}
+
+/* laptop view */
+
+@media (min-width: 768px) {
+    .titulo {
+        background-color: rgb(133, 7, 7);
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20% 20% 20%;
+    
+    }
+    
+    .titulo1 {        
+        padding: 2%;
+        text-align: left;
+        font-size: xx-large;
+        grid-column-start: 1;
+        margin: 5%; 
+
+    }
+
+    .redes {
+        margin: 5%;
+        display: flex;
+        grid-column-start: 4 - 7;
+        justify-content: space-evenly;
+    }
+    
+    .articulos {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
