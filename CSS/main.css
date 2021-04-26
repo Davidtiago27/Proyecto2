@@ -54,4 +54,9 @@ footer {
     justify-content: space-evenly; }
   .articulos {
     display: flex;
+    justify-content: space-evenly; }
+  .redes2 {
+    padding: 2% 30% 2% 30%;
+    display: flex;
+    grid-column-start: -3;
     justify-content: space-evenly; } }
